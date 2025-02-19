@@ -1,16 +1,16 @@
 import React from "react";
-
+import "../sass/layout/nav.scss";
  function First(){
     return(
         <>
         <div className="logo-cont">
          <div className="help-container">
            < div className="button-container">
-           <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about-us</a></li>
-                <li><a href="#">contact-us</a></li>
+           <nav className="navbar">
+            <ul className="ul">
+                <li className="li"><a href="#" className="arc">home</a></li>
+                <li className="li"><a href="#" className="arc">about-us</a></li>
+                <li className="li"><a href="#" className="arc">contact-us</a></li>
             </ul>
            </nav>
            </div>
